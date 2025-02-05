@@ -17,7 +17,7 @@ The Image URL Processor is a Next.js application that implements a job queue sys
 - Displays real-time task status
 - Polls for updates every 5 seconds
 
-#### API Routes (`app/api/submit-task/route.ts`)
+#### API Routes (`app/api/task/route.ts`)
 - Handles task creation
 - Retrieves task status
 - Manages queue job creation
@@ -70,7 +70,7 @@ REDIS_URL=your_redis_connection_string
 ```
 ├── app/
 │   ├── api/
-│   │   └── submit-task/
+│   │   └── task/
 │   │       └── route.ts
 │   └── page.tsx
 ├── config/
