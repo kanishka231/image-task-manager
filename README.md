@@ -83,7 +83,7 @@ REDIS_URL=your_redis_connection_string
 ```
 
 ## API Endpoints
-### `GET /api/submit-task`
+### `GET /api/task`
 Retrieves all tasks sorted by timestamp in descending order.
 #### Response:
 ```json
@@ -97,7 +97,7 @@ Retrieves all tasks sorted by timestamp in descending order.
 ]
 ```
 
-### `POST /api/submit-task`
+### `POST /api/task`
 Creates a new image processing task.
 #### Request body:
 ```json
@@ -149,6 +149,12 @@ Creates a new image processing task.
 - Update MongoDB schema in `models/`
 - Modify worker logic in `worker.mjs`
 - Update UI components in `app/page.tsx`
+
+
+## Screenshots
+
+![Screenshot](/public/ss2.png)
+![Screenshot](/public/ss.png)
 
 ### Best Practices
 - Implement error handling for all async operations
