@@ -124,7 +124,10 @@ Creates a new image processing task.
 - **Processing:** Task is being processed by worker
 - **Success:** Image URL is accessible
 - **Failed:** Image URL is inaccessible or error occurred
+## Screenshots
 
+![Screenshot](/public/ss2.png)
+![Screenshot](/public/ss.png)
 ## Error Handling
 - MongoDB connection errors
 - Redis connection errors
@@ -151,10 +154,7 @@ Creates a new image processing task.
 - Update UI components in `app/page.tsx`
 
 
-## Screenshots
 
-![Screenshot](/public/ss2.png)
-![Screenshot](/public/ss.png)
 
 ### Best Practices
 - Implement error handling for all async operations
