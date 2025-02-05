@@ -50,7 +50,7 @@ REDIS_URL=your_redis_connection_string
 1. Clone the repository:
    ```bash
    git clone https://github.com/kanishka231/image-task-manager.git
-   cd image-url-processor
+   cd image-task-manager
    ```
 2. Install dependencies:
    ```bash
