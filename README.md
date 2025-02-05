@@ -57,11 +57,11 @@ REDIS_URL=your_redis_connection_string
    npm install
    ```
 3. Set up environment variables as mentioned above.
-4. Start the development server:
+4. Start the development server in one terminal:
    ```bash
    npm run dev
    ```
-5. Start the worker process:
+5. Start the worker process open another terminal and run this command:
    ```bash
    node worker.mjs
    ```
