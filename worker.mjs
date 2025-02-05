@@ -10,10 +10,10 @@ dotenv.config();
 
 // Redis connection
 const connection = new IORedis({
-    host: 'redis-13332.c264.ap-south-1-1.ec2.redns.redis-cloud.com',
-    port: 13332,
+    host: 'redis-12536.c305.ap-south-1-1.ec2.redns.redis-cloud.com',
+    port: 12536,
     username: 'default',
-    password: 'djnmBnkCbnjLb7OS3nCChJNY0J9VWSH0',
+    password: '2kqNZh4atM2Vqt4llWlS7Ap9HoOcCFUX',
     maxRetriesPerRequest: null
 });
 
@@ -34,7 +34,7 @@ const Task = mongoose.models.Task || mongoose.model("Task", TaskSchema);
 // MongoDB connection
 const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb+srv://kanishkasonkar231:Kanishka38@cluster0.ix3yj.mongodb.net/image?retryWrites=true&w=majority&appName=Cluster0");
+        await mongoose.connect("mongodb+srv://kanishkasonkar231:Kanishka38@cluster0.ix3yj.mongodb.net/imageProd?retryWrites=true&w=majority&appName=Cluster0");
         console.log('✅ MongoDB connected successfully');
     } catch (error) {
         console.error('❌ MongoDB connection error:', error);

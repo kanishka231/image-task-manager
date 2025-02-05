@@ -17,7 +17,7 @@ export default function Home() {
 
   const fetchTasks = async () => {
     try {
-      const response = await axios.get("/api/submit-task");
+      const response = await axios.get("/api/task");
       setTasks(response.data);
     } catch (error) {
       console.error("Error fetching tasks:", error);
@@ -36,7 +36,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      await axios.post("/api/submit-task", { imageUrl });
+      await axios.post("/api/task", { imageUrl });
       setImageUrl("");
       await fetchTasks();
     } catch (error) {
